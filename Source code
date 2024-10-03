@@ -1,0 +1,8 @@
+print("Welcome to Charity calculator!")
+earn = float(input("What is your total earning? "))
+perc = int(input("What percentage of it would you like to give?"))
+thing=input("what do you want to buy and give to charity ?")
+cost=int(input(f"how much does one {thing} cost?"))
+char =(earn*round(perc/100,3))
+print(f"you are blessed to give a charity amount of\nRupees {char}\n you can buy and give\n {int(char/cost)} {thing} to the needy")
+
